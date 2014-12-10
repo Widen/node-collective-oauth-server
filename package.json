@@ -1,0 +1,40 @@
+{
+  "name": "collective-oauth-server",
+  "version": "0.0.0",
+  "description": "Handle Widen Collective OAuth and host static files",
+  "main": "index.js",
+  "bin": {
+    "collective-oauth-server": "./bin/collective-oauth-server"
+  },
+  "scripts": {
+    "style": "jshint index.js server.js bin/collective-oauth-server",
+    "test": "echo \"tape test/all-test.js\" && exit 0",
+    "coverage": "echo \"covert test/all-test.js\" && exit 0",
+    "start": "node ./bin/collective-oauth-server"
+  },
+  "dependencies": {
+    "bistre": "^1.0.1",
+    "bole": "^1.0.0",
+    "dashdash": "^1.7.1",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Widen/node-collective-oauth-server.git"
+  },
+  "keywords": [
+    "widen",
+    "collective",
+    "oauth",
+    "server"
+  ],
+  "author": "Mark Feltner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Widen/node-collective-oauth-server/issues"
+  },
+  "homepage": "https://github.com/Widen/node-collective-oauth-server"
+}
