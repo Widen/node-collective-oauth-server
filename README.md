@@ -19,6 +19,9 @@ npm install --save collective-oauth-server
 
 This works best when you just want to try `node-collective-oauth-server`, or get a simple OAuth2 server for Collective started ASAP.
 
+```
+npm install -g collective-oauth-server
+```
 
 # Executing
 
@@ -54,12 +57,6 @@ In `package.son`:
 ```
 
 # Global
-
-```
-npm install -g collective-auth-server
-```
-
-Then you can, from command-line:
 
 From command line:
 
