@@ -67,7 +67,7 @@ collective-oauth-server
 # Usage
 
 ```
-usage: collective-instant [OPTIONS]
+usage: collective-oauth-server [OPTIONS]
 options:
     --host=ARG, --hostname=ARG          The the local host to run as (default:
                                         localhost). Environment: HOSTNAME=ARG
