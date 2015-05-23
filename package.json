@@ -16,6 +16,7 @@
     "bistre": "^1.0.1",
     "bole": "^1.0.0",
     "dashdash": "^1.7.1",
+    "st": "^0.5.4",
     "uuid": "^2.0.1"
   },
   "devDependencies": {
