@@ -148,7 +148,7 @@ module.exports = function createServer(opts) {
                     response_type: 'code'
                 });
                 res.writeHead(303, {
-                    Location: util.format('http://%s:%d/allowaccess?', collective_host, collective_port) + query
+                    Location: util.format('%s://%s:%d/allowaccess?', collective_protocol, collective_host, collective_port) + query
                 });
                 res.end();
                 return;
