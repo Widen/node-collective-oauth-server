@@ -1,6 +1,6 @@
 {
   "name": "collective-oauth-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Handle Widen Collective OAuth and host static files",
   "main": "index.js",
   "bin": {
